@@ -1,0 +1,319 @@
+header{
+    width: 100%;
+    height: 560px;
+    background: var(--bgSite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+header .header-text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 1.7rem;
+}
+
+header .header-text h1{
+    font-family: var(--fontmerriweather);
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 4.7rem;
+    color: var(--title);
+}
+
+header .header-text p{
+    font-family: var(--fontlato);
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+    color: var(--text);
+}
+
+header .header-text button{
+    font-family: var(--fontlato);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--white);
+    width: 15.5rem;
+    height: 5rem;
+    background: var(--buttonColor);
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 0.5rem;
+    margin-top: 2.8rem;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+header .header-text button:hover{
+    background: var(--white);
+    color: var(--buttonColor);
+    transform: translateY(-1rem);
+}
+
+header .header-img img {
+    width: 100%;
+    max-width: 50rem;
+    transform: translateY(-2.5rem);
+    animation: img-move 3s ease 0.6s infinite alternate;
+}
+
+@keyframes img-move {
+    0% {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(10px, -40px, 0);
+              transform: translate3d(10px, -40px, 0);
+    }
+  }
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white300);
+}
+
+main .container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11.1rem;
+    flex-wrap: wrap;
+    padding: 15.5rem 5.3rem;
+}
+
+main .container section{
+    width: 34rem;
+    height: 42.3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease;
+}
+
+main .container section:hover{
+    transform: scale(1.03);
+}
+
+main .container section > div{
+    width: 100%;
+    height: 22.2rem;
+}
+
+main .container section .card-text{
+    width: 100%;
+    height: 100%;
+    padding: 2.4rem 3rem;
+}
+
+main .container section .card-text{
+    width: 100%;
+    height: 100%;
+    padding: 2.4rem 3rem;
+}
+
+main .container section .card-text h2{
+    margin-bottom: 2.6rem;
+    font-family: var(--fontmerriweather);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: var(--title);
+}
+
+main .container section .card-text p{
+    font-family: var(--fontlato);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: var(--text);
+}
+
+footer{
+    width: 100%;
+    height: 750px;
+    background: var(--bgSite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 490px;
+    padding: 0 2rem;
+    height: auto;
+    gap: 1.5rem;
+}
+
+footer .container h3{
+    font-family: var(--fontmerriweather);
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: var(--title);
+    margin-bottom: 4.5rem;
+}
+
+footer .container input{
+    width: 100%;
+    height: 6.5rem;
+    background: var(--white);
+    border-radius: 0.6rem;
+    padding: 2rem 1.5rem;
+    outline: none;
+    font-family: var(--fontlato);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(110, 114, 117, 0.74);
+}
+
+footer .container input::placeholder{
+    font-family: var(--fontlato);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(110, 114, 117, 0.74);
+}
+
+footer .container textarea{
+    resize: none;
+    width: 100%;
+    height: 16.5rem;
+    background: var(--white);
+    border: none;
+    border-radius: 0.6rem;
+    padding: 2rem 1.5rem;
+    outline: none;
+    font-family: var(--fontlato);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(110, 114, 117, 0.74);
+}
+
+footer .container textarea::placeholder{
+    font-family: var(--fontlato);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(110, 114, 117, 0.74);
+}
+
+footer .container button{
+    width: 100%;
+    height: 5rem;
+    background: var(--buttonColor);
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    border-radius: 0.5rem;
+    font-family: var(--fontlato);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--white);
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+footer .container button:hover{
+    background: var(--white);
+    color: var(--buttonColor);
+    transform: translateY(-0.5rem);
+}
+
+main .container section .colorBackground1{
+    background: #FF6363;
+}
+
+main .container section .colorBackground2{
+    background: #63ECFF;
+}
+
+main .container section .colorBackground3{
+    background: #F363FF;
+}
+
+main .container section .colorBackground4{
+    background: #63FF73;
+}
+
+main .container section .colorBackground5{
+    background: #FFDD63;
+}
+
+main .container section .colorBackground6{
+    background: #6663FF;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1080px){
+    header .header-text br{
+        display: none;
+    }
+    header .header-text{
+        max-width: 37.5rem;
+    }
+    header .container{
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header{
+        height: 80rem;
+    }
+    header .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 5.5rem 2rem;
+        gap: 10.1rem;
+    }
+    header .header-text h1{
+        font-size: 3.4rem;
+    }
+    header .header-text h1, header .header-text p{
+        text-align: justify;
+    }
+    header .header-img img{
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 385px){
+    main .container section .card-text{
+        padding: 2.4rem 2.5rem;
+    }
+    main .container section .card-text h2{
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+    main .container section .card-text p{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+    main .container section .card-text p br{
+        display: none;
+    }
+}
