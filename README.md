@@ -7,7 +7,7 @@ Repositório criado para armazenar o desafio 03 proposto por Iuri Silva criador 
 ## 💻  Projeto desenvolvido
 <a href="https://gabrieldiasdev.github.io/onePage/" target="_blank">Acesse o projeto</a>
 
-<img src="./img/img-index.png" />
+<img src="assets/img/img-index.png" />
 
 ## 👨‍💻 Autor
 
