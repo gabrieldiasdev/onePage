@@ -73,14 +73,14 @@
             </div>
         </main>
         <footer>
-            <div class="container">
+            <form onsubmit="handleSubmit(event)">
                 <h3>Entre em contato</h3>
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="E-mail">
-                <input type="text" placeholder="Telefone">
-                <textarea placeholder="Mensagem..."></textarea>
-                <button>Enviar mensagem</button>
-            </div>
+                <input type="text" name="nome" autocomplete="off" placeholder="Nome">
+                <input type="text" name="email" autocomplete="off" placeholder="E-mail">
+                <input type="text" name="tel" autocomplete="off" placeholder="Telefone">
+                <textarea name="msg" spellcheck="false" placeholder="Mensagem..."></textarea>
+                <button type="submit">Enviar mensagem</button>
+            </form>
         </footer>
     </body>
 </html>
